@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StackoverflowQuestions</string>
+    <string name="an_error_occured">There is an error in communicating with server</string>
+</resources>
