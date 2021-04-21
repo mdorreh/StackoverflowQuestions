@@ -16,4 +16,9 @@ class StackoverflowService {
     fun getQuestions():Single<QuestionList>{
         return api.getQuestions(20)
     }
+
+    fun getQuestionDetails(questionId:String):Single<QuestionDetailsList>{
+        return api.getQuestionDetails(questionId)
+    }
+
 }

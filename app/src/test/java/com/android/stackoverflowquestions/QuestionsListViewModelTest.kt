@@ -50,7 +50,7 @@ class QuestionsListViewModelTest {
     }
 
     @Test
-    fun getCountriesFailure() {
+    fun getQuestionsFailure() {
         testSingle = Single.error(Throwable())
         Mockito.`when`(stackoverflowService.getQuestions()).thenReturn(testSingle)
 
